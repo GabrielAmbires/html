@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+header {
+    background-color: #1d0f6e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    padding: 10px 70px;
+}
+.lugar img {
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+}
+.lugar {
+    border: 3px solid black;
+    /* Expessura, tipo e cor da borda*/
+    border-radius: 20px;
+    text-align: center;
+}
+.espaço {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lugar p {
+    font-size: 20px;
+    text-align: left;
+    padding: 10px 3px;
+    max-width: 500px;
+}
+.titulo {
+    font-size: 90px;
+    color: #1d0f6e;
+    text-align: center;
+    margin: 60px 0;
+}
+.eua img {
+    color: white;
+    height: auto;
+    width: auto;
+}
