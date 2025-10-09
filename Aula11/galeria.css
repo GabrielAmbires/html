@@ -1,0 +1,14 @@
+body {
+    display: grid;
+
+    grid-template-columns: 33% 33% 33%; /*Três Colunas*/
+    
+
+    height: 100vh;
+    gap: 30px;
+    background-color: aliceblue;
+}
+div {
+    height: 500px;
+    display: flex;
+}

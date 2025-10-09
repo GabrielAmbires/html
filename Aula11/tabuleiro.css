@@ -1,0 +1,61 @@
+body {
+    display: grid;
+
+    grid-template-columns: 33% 33% 33%; /*Três Colunas*/
+    
+
+    height: 100vh;
+    gap:20px;
+
+     grid-template-areas: "header header header" "nav main aside" "footer footer footer";
+}
+
+.b1 {
+    background-color: aqua;
+}
+
+.b2 {
+    background-color: green;
+}
+
+.b3 {
+    background-color: purple;
+}
+
+.b4 {
+    background-color: pink;
+}
+
+.b5 {
+    background-color: yellow;
+}
+
+.b6 {
+    background-color: yellowgreen;
+}
+
+.b7 {
+    background-color: brown;
+}
+
+.b8 {
+    background-color: navy;
+}
+
+.b9 {
+    background-color: black;
+}
+
+.b10 {
+    background-color: cadetblue;
+}
+
+.b11 {
+    background-color: crimson;
+}
+
+.b12 {
+    background-color: rebeccapurple;
+}
+
+
