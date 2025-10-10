@@ -1,0 +1,75 @@
+div{
+    height: 250px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.grayscale {
+    filter: grayscale(100%); /*Deixa Preto e Branco*/
+    width: 250px;
+}
+
+.sepia {
+    filter: sepia(100%); /*Deixa Amarelado*/
+    width: 250px;
+}
+
+.invert {
+    filter: invert(100%); /*Inverter as Cores*/
+    width: 250px;
+}
+
+.blur {
+    filter: blur(4px); /*Desfocar uma imagem*/
+    width: 250px;
+}
+
+.brightness {
+    filter: brightness(150%); /*Aumentar o Brilho */
+    width: 250px;
+}
+
+.contrast {
+    filter: contrast(200%); /* Aumenta/ Diminui o contraste*/
+    width: 250px;
+}
+
+
+.contrast:hover {
+    filter: none;
+    width: 300px;
+}
+
+.img1, .img2, .img3, .img4, .img5  {
+    width: 150px;
+    gap: 10px;
+    display: flex;
+    filter: blur(10px) grayscale(150%);
+}
+
+.img5:hover {
+    filter: none;
+    height: 300px;
+
+}
+.img4:hover {
+    filter: none;
+    height: 300px;
+
+}
+.img3:hover {
+    filter: none;
+    height: 300px;
+
+}
+.img2:hover {
+    filter: none;
+    height: 300px;
+
+}
+.img1:hover {
+    filter: none;
+    height: 300px;
+}
+
+
