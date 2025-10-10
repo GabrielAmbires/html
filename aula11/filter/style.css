@@ -44,7 +44,7 @@ div{
     width: 150px;
     gap: 10px;
     display: flex;
-    filter: blur(10px);
+    filter: blur(10px) grayscale(150%);
 }
 
 .img5:hover {
