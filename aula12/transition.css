@@ -1,0 +1,47 @@
+/*TRANSITION.CSS*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.bola {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border-radius: 360px;
+    margin: 20px;
+    transition: transform 5s;
+}
+.container:hover .bola {
+    transform: translateX(300px);
+}
+.ease {
+    transition-timing-function: ease;
+}
+/*Devagar, acelera, devagar*/
+.linear {
+    transition-timing-function: linear;
+}
+/*Mesma Velocidade*/
+.ease-in {
+    transition-timing-function: ease-in;
+}
+/*Devagar, Acelera*/
+.ease-out {
+    transition-timing-function: ease-out;
+}
+/* Rapido, Devagar */
+.ease-in-out {
+    transition-timing-function: ease-in-out;
+}
+/* Mistura dos dois */
+

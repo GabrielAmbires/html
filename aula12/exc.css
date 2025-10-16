@@ -1,0 +1,103 @@
+.botao {
+    background-color: red;
+    transition: background-color 1s ease;
+}
+.botao:hover {
+    background-color: blue;
+}
+
+.botao1 {
+    width: 200px;
+    height: 100px;
+    transition: 1s ease-in;
+}
+.botao1:hover {
+    width: 300px;
+    height: 200px;
+}
+button {
+    display: block;
+    margin: 10px;
+}
+.botao2 {
+    background-color: green;
+    border-color: aliceblue;
+    transition: 0.5s ease-in;
+}
+.botao2:hover {
+    background-color: pink;
+    border-color: black;
+    color: aqua;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    box-shadow: 5px 5px 5px gray;
+    transition: 5s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card:hover {
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 100px grey;
+    background-color: aqua;
+}
+.paragrafo {
+    font-size: 20px;
+    transition: 3s ease;
+}
+
+.paragrafo:hover {
+    font-size: 30px;
+    color: green;
+}
+.moto {
+    transition-delay: 0.5s;
+}
+img {
+    width: 500px;
+    height: 350px;
+    transition: 3s ease-in
+}
+img:hover {
+    width: 800px;
+    height: 600px;
+}
+.link {
+    justify-content: space-between;
+    display: flex;
+}
+.home {
+    font-size: 20px;
+    transition: 1s ease-in;
+}
+.sobre {
+    font-size: 20px;
+    transition: 1s ease-in;
+}
+.projetos {
+    font-size: 20px;
+    transition: 1s ease-in;
+}
+.contato {
+    font-size: 20px;
+    transition: 1s ease-in;
+}
+.home:hover {
+    color: green;
+    text-decoration: underline;
+}
+.sobre:hover {
+    color: green;
+    text-decoration: underline;
+}
+.projetos:hover {
+    color: green;
+    text-decoration: underline;
+}
+.contato:hover {
+    color: green;
+    text-decoration: underline;
+}
