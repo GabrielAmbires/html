@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 th, td {
     border: 1px solid black;
     padding: 10px;
@@ -9,4 +10,17 @@ table {
 }
 th {
     background-color: lightgray;
+=======
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 200px; 
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    background-color: lightgray;
+>>>>>>> 515c8985abb3d1e64cc51242f528cf72280072ec
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 th, td {
     border: 1px solid black;
     padding: 10px;
@@ -21,4 +22,29 @@ th {
 
 .Reprovado {
     background-color: red;
+=======
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 200px; 
+}
+table {
+    border-collapse: collapse;
+}
+th {
+    background-color: lightgray;
+}
+
+.tdtitulo {
+    background-color: lightblue;
+}
+
+.Aprovado {
+    background-color: green;
+}
+
+.Reprovado {
+    background-color: red;
+>>>>>>> 515c8985abb3d1e64cc51242f528cf72280072ec
 }
