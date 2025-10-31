@@ -1,0 +1,41 @@
+
+body {
+    display: grid;
+    grid-template-columns: 32% 32% 32%; /*Três Colunas*/
+    height: 100vh;
+    gap: 20px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.div1 {
+    border: 3px solid black;
+}
+
+.div2 {
+    border: 3px solid black;
+}
+
+.div3 {
+    border: 3px solid black;
+}
+
+.div4 {
+    border: 3px solid black;
+}
+
+.div5 {
+    border: 3px solid black;
+}
+
+.div6 {
+    border: 3px solid black;
+}
+
+img {
+    border-radius: 30px;
+}
