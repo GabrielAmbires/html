@@ -1,0 +1,152 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  font-size: 1.2em;
+  margin-top: 40px;
+}
+
+/* =============== EXERCÍCIO 1 =============== */
+.btn {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn1 { background: crimson; }
+.btn1:hover { background: tomato; }
+
+.btn2 { background: teal; }
+.btn2:hover { background: lightseagreen; }
+
+.btn3 { background: purple; }
+.btn3:hover { background: violet; }
+
+/* =============== EXERCÍCIO 2 =============== */
+.btn-active {
+  background: royalblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: transform 0.1s ease;
+}
+
+.btn-active:active {
+  transform: scale(0.9);
+}
+
+/* =============== EXERCÍCIO 3 =============== */
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  border: 2px solid #ccc;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0,123,255,0.5);
+  outline: none;
+}
+
+/* =============== EXERCÍCIO 4 =============== */
+.card {
+  width: 300px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  background-color: #f0f0f0;
+}
+
+/* =============== EXERCÍCIO 5 =============== */
+.galeria {
+  display: flex;
+  gap: 10px;
+}
+
+.galeria img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+}
+
+.galeria img:hover {
+  filter: grayscale(100%);
+}
+
+/* =============== EXERCÍCIO 6 =============== */
+.btn-press {
+  background: gray;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  transition: all 0.2s ease;
+}
+
+.btn-press:hover {
+  background: lightblue;
+}
+
+.btn-press:active {
+  background: darkblue;
+  transform: scale(0.95);
+}
+
+.btn-press:focus {
+  outline: 2px solid blue;
+}
+
+/* =============== EXERCÍCIO 7 =============== */
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.form input, .form button {
+  margin: 8px 0;
+  padding: 8px;
+  border: 2px solid #ccc;
+  transition: 0.3s;
+}
+
+.form input:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px rgba(40,167,69,0.5);
+  outline: none;
+}
+
+.form button {
+  background: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: #218838;
+}
+
+.form button:active {
+  transform: scale(0.95);
+}
