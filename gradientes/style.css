@@ -1,0 +1,41 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f5f5f5;
+  gap: 10px;
+}
+
+.caixa {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  border: 3px solid black;
+}
+
+
+.caixa1 {
+  background: linear-gradient(to bottom, red, blue);
+}
+
+.caixa2 {
+  background: linear-gradient(to right, green, yellow, orange);
+}
+
+.caixa3 {
+  background: linear-gradient(to bottom right, purple, pink, white);
+}
+
+.caixa4 {
+  background: radial-gradient(circle, lightblue, darkblue);
+}
+
+.caixa5 {
+  background: radial-gradient(circle at top left, pink, white);
+}
+
+.caixa6 {
+  background: conic-gradient(red, yellow, green, blue);
+}
