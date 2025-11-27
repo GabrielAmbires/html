@@ -5,10 +5,9 @@
 }
 
 .caixa-login {
-    width: 600px;
-    height: 100%;
+    width: 1000px;
+    height: 400px;
     margin: 50px auto;
-    text-align: center;
     color: #2d73b5;
     padding: 60px;
     border: 2px solid #8cbf51;
@@ -20,7 +19,7 @@
 .enviar {
 
     background-color: #2d73b5;
-    color: white;A
+    color: white;
     height: 40px;
 }
 
@@ -36,18 +35,19 @@ button {
 }
 
 input {
-    width: 595px;
-    height: 25px;
+    width: 450px;
+    height: 30px;
     border-radius: 5px;
 }
 
-.login {
+.buscar {
     text-align: left;
 }
 
 body {
     background-image: url(imglogin/background.png);
     align-items: center;
+    text-align: center ;
 }
 
 .file {
@@ -103,4 +103,46 @@ footer {
 .inicio a {
     text-decoration: none;
     color: #2d73b5;
+}
+
+.presente {
+    color: green;
+}
+
+.falta {
+    color: red;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    width: 200px;
+}
+
+tr {
+    color: black;
+}
+
+table {
+    padding-top: 40px;
+    width: 1000px;
+    height: 280px;
+}
+
+.selecione {
+    height: 40px;
+    width: 500px;
+    border-radius: 5px;
+}
+form {
+    display: flex;
+}
+.buscar1 {
+    padding-left: 10px;
+}
+.txtt {
+    width: 450px;
+    height: 35px;
 }
