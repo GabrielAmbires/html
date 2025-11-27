@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat";
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 140px;
+    font-size: 25px;
+    background-color: #ebe5b6;
+    font-family: "Mont";
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url(imglogin/background.png);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: auto;
+    padding: 0 10px;
+    font-size: 25px;
+    align-items: center;
+    background-color: #2d73b5;
+    height: 70px;
+    font-size: 20px;
+}
+
+
+button {
+    border-radius: 8px;
+    background-color: #851B1B;
+    padding: 20px;
+    color: white;
+    border: #851B1B;
+}
+
+.text {
+    font-size: 50px;
+}
+
+.visita {
+    font-size: 24px;
+}
+
+.buttom {
+    font-size: 23px;
+}
+
+.imagem {
+    display: flex;
+}
+
+
+.caixa1 {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 30px 0;
+    border: 3px solid #8cbf51;
+}
+
+.caixas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: 120px;
+}
+
+.imgg {
+    border-radius: 10px;
+    width: 1200px;
+}
+
+.inicio {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    font-size: 18px;
+}
+
+.imgcaixa {
+    text-align: center;
+    width: 1200px;
+}
+
+.inicio a {
+    text-decoration: none;
+    color: #2d73b5;
+}
+
+.titulo {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2d73b5;
+}
+
+.txt {
+
+    color: #2d73b5;
+    text-align: center;
+    align-items: center;
+}
